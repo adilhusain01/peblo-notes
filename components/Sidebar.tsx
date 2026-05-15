@@ -23,11 +23,8 @@ export function Sidebar({ user }: SidebarProps) {
   return (
     <aside className="w-[220px] border-r border-[#1a1a1a] bg-[#080808] flex flex-col shrink-0">
       {/* Logo */}
-      <div className="h-14 border-b border-[#1a1a1a] flex items-center px-5 gap-3">
-        <div className="w-6 h-6 bg-white flex items-center justify-center shrink-0">
-          <span className="text-black font-mono text-[10px] font-bold">P</span>
-        </div>
-        <span className="font-mono text-xs tracking-[0.15em] uppercase text-[#666]">Peblo</span>
+      <div className="h-14 border-b border-[#1a1a1a] flex items-center px-5">
+        <img src="https://internshala-uploads.internshala.com/logo%2Fgnta0paqhbw-70978.png.webp" alt="Logo" className="h-8 w-auto" />
       </div>
 
       {/* Nav */}
